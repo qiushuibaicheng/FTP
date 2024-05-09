@@ -108,7 +108,7 @@ class FTP:
         handler.passive_ports = eval(config["passive_ports"])
 
         # 添加伪装地址
-        # handler.masquerade_address = "115.236.153.177"
+        # handler.masquerade_address = config["masquerade_address"]
 
         # 上传下载的速度设置
         dtp_handler = ThrottledDTPHandler
