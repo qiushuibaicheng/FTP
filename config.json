@@ -1,0 +1,25 @@
+{
+    "users": {
+        "20240507221006063349": {
+            "username": "admin",
+            "password": "admin",
+            "directory": "FTP/admin",
+            "permissions": "elradfmw"
+        },
+        "20240508192255645533": {
+            "username": "user10",
+            "password": "123456",
+            "directory": "FTP/user10",
+            "permissions": "elradfmw"
+        }
+    },
+    "root_directory": "FTP",
+    "passive_ports": "(3050, 3500)",
+    "read_limit": 10000,
+    "write_limit": 10000,
+    "listen_ip": "0.0.0.0",
+    "listen_port": 3016,
+    "max_cons": 150,
+    "max_cons_per_ip": 15,
+    "masquerade_address": "xxx.xxx.xxx.xxx"
+}
